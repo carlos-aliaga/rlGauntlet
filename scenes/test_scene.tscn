@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://0a38dck8u7d1"]
+
+[ext_resource type="PackedScene" uid="uid://l24ymm623nnd" path="res://scenes/player/thor.tscn" id="1_eaohm"]
+
+[node name="Test scene" type="Node2D"]
+
+[node name="Thor" parent="." instance=ExtResource("1_eaohm")]
